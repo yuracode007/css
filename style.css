@@ -4,8 +4,28 @@
 
 .parent{
     border: 5px solid blue;
+    min-height: 150px;
+    
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* justify-content: space-between;       */
+    /* align-items: flex-start;     */
 }
 
 .child{
     border: 5px solid red;
+
+    /* order: ; */
+    /* align-self: ; */
 }
+
+.child1{
+    align-self: flex-end;
+}
+
+/* .child4{
+    align-self: flex-end;
+} */
