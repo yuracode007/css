@@ -6,26 +6,43 @@
     border: 5px solid blue;
     min-height: 150px;
     
-    
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    
+   
 
-    /* justify-content: space-between;       */
-    /* align-items: flex-start;     */
+   
 }
 
 .child{
     border: 5px solid red;
 
-    /* order: ; */
-    /* align-self: ; */
 }
 
 .child1{
-    align-self: flex-end;
+order: 6;
 }
 
-/* .child4{
-    align-self: flex-end;
-} */
+.child2{
+    order: 5;
+    }
+
+    .child3{
+order: 4;
+}
+
+.child4{
+    order: 3;
+    }
+
+.child5{
+   order: 2;
+  }
+        
+  
+.child6{
+  order: 1;
+  }
+            
+
+
+
